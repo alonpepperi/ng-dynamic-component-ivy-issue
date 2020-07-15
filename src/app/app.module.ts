@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {DynamicModule,
+   DynamicIoModule, DynamicAttributesModule, DynamicDirectivesModule} from 'ng-dynamic-component';
 
 @NgModule({
   declarations: [
@@ -10,7 +12,11 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DynamicModule,
+    DynamicIoModule,
+    DynamicDirectivesModule,
+    DynamicAttributesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
