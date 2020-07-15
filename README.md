@@ -1,4 +1,4 @@
-# TestNg9App
+# TestNg9App with Ivy and ng-dynamic-component
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0.
 
